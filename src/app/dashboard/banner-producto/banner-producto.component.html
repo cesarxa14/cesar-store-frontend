@@ -1,0 +1,10 @@
+<div class="container  my-3">
+    <div class="row" >
+        <div class="banner col-lg-3 m-1" *ngFor="let ban of bannerList">
+            <figure style="--c:#fff5" class="justify-content-center">
+                <img src="{{ban.image}}" alt="Mountains" height="200">
+                <figcaption>{{ban.name}}</figcaption>
+            </figure>
+        </div>
+    </div>
+</div>

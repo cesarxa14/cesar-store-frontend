@@ -1,0 +1,21 @@
+.container {
+    /* border: 2px solid black; */
+
+    position: relative;
+    margin-left: 250px; /* Ancho del sidebar */
+    width: calc(100% - 250px);;
+
+  }
+  
+  .p-sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+  }
+  
+  .main-content {
+    /* border: 2px solid red; */
+  }
+
+  
